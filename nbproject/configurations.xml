@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>CashAble.h</itemPath>
+      <itemPath>Cell.h</itemPath>
+      <itemPath>Person.h</itemPath>
+      <itemPath>RoundUtil.h</itemPath>
+      <itemPath>SimpleCash.h</itemPath>
+      <itemPath>SimpleCash.hpp</itemPath>
+      <itemPath>SimpleCash1.h</itemPath>
+      <itemPath>SimpleCash1.hpp</itemPath>
+      <itemPath>SimpleCash2.h</itemPath>
+      <itemPath>SimpleCash2.hpp</itemPath>
+      <itemPath>SimpleCash3.h</itemPath>
+      <itemPath>SimpleCash3.hpp</itemPath>
+      <itemPath>SimpleCash4.h</itemPath>
+      <itemPath>SimpleCash4.hpp</itemPath>
+      <itemPath>Vect3D.h</itemPath>
+      <itemPath>Vect3DCsh.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>RoundUtil.cpp</itemPath>
+      <itemPath>Vect3D.cpp</itemPath>
+      <itemPath>main.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+      <logicalFolder name="f1"
+                     displayName="New C++ Simple Test"
+                     projectFiles="true"
+                     kind="TEST">
+        <itemPath>tests/RoundUtill_simpleTest.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f3"
+                     displayName="SimpleCash C++ Simple Test"
+                     projectFiles="true"
+                     kind="TEST">
+        <itemPath>tests/SimpleCash_Test.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f4"
+                     displayName="SimpleCash1 C++ Simple Test 1"
+                     projectFiles="true"
+                     kind="TEST">
+        <itemPath>tests/SimpleCash1Test.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f5"
+                     displayName="SimpleCash2 C++ Simple Test"
+                     projectFiles="true"
+                     kind="TEST">
+        <itemPath>tests/SimpleCash2Test.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f6"
+                     displayName="SimpleCash3 C++ Simple Test"
+                     projectFiles="true"
+                     kind="TEST">
+        <itemPath>tests/SimpleCash3Test.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f7"
+                     displayName="SimpleCash4 C++ Simple Test 1"
+                     projectFiles="true"
+                     kind="TEST">
+        <itemPath>tests/SimpleCash4Test.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f2"
+                     displayName="Vect3D C++ Simple Test 1"
+                     projectFiles="true"
+                     kind="TEST">
+        <itemPath>tests/Vect3Dtest.cpp</itemPath>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+    <itemPath>Readme.md</itemPath>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>MinGW_64|MinGW</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <standard>8</standard>
+        </ccTool>
+      </compileType>
+      <item path="CashAble.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Cell.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Person.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Readme.md" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RoundUtil.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="RoundUtil.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SimpleCash.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SimpleCash.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SimpleCash1.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SimpleCash1.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SimpleCash2.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SimpleCash2.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SimpleCash3.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SimpleCash3.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SimpleCash4.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SimpleCash4.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Vect3D.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Vect3D.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Vect3DCsh.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <folder path="TestFiles/f1">
+        <cTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <output>${TESTDIR}/TestFiles/f1</output>
+        </linkerTool>
+      </folder>
+      <folder path="TestFiles/f2">
+        <cTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <output>${TESTDIR}/TestFiles/f2</output>
+        </linkerTool>
+      </folder>
+      <folder path="TestFiles/f3">
+        <cTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <output>${TESTDIR}/TestFiles/f3</output>
+        </linkerTool>
+      </folder>
+      <folder path="TestFiles/f4">
+        <cTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <output>${TESTDIR}/TestFiles/f4</output>
+        </linkerTool>
+      </folder>
+      <folder path="TestFiles/f5">
+        <cTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <output>${TESTDIR}/TestFiles/f5</output>
+        </linkerTool>
+      </folder>
+      <folder path="TestFiles/f6">
+        <cTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <output>${TESTDIR}/TestFiles/f6</output>
+        </linkerTool>
+      </folder>
+      <folder path="TestFiles/f7">
+        <cTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <output>${TESTDIR}/TestFiles/f7</output>
+        </linkerTool>
+      </folder>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tests/RoundUtill_simpleTest.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tests/SimpleCash1Test.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tests/SimpleCash2Test.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tests/SimpleCash3Test.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tests/SimpleCash4Test.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tests/SimpleCash_Test.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tests/Vect3Dtest.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+          <standard>8</standard>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="CashAble.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Cell.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Person.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Readme.md" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RoundUtil.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="RoundUtil.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SimpleCash.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SimpleCash.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SimpleCash1.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SimpleCash1.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SimpleCash2.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SimpleCash2.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SimpleCash3.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SimpleCash3.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SimpleCash4.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SimpleCash4.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Vect3D.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Vect3D.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Vect3DCsh.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <folder path="TestFiles/f1">
+        <cTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <output>${TESTDIR}/TestFiles/f1</output>
+        </linkerTool>
+      </folder>
+      <folder path="TestFiles/f2">
+        <cTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <output>${TESTDIR}/TestFiles/f2</output>
+        </linkerTool>
+      </folder>
+      <folder path="TestFiles/f3">
+        <cTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <output>${TESTDIR}/TestFiles/f3</output>
+        </linkerTool>
+      </folder>
+      <folder path="TestFiles/f4">
+        <cTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <output>${TESTDIR}/TestFiles/f4</output>
+        </linkerTool>
+      </folder>
+      <folder path="TestFiles/f5">
+        <cTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <output>${TESTDIR}/TestFiles/f5</output>
+        </linkerTool>
+      </folder>
+      <folder path="TestFiles/f6">
+        <cTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <output>${TESTDIR}/TestFiles/f6</output>
+        </linkerTool>
+      </folder>
+      <folder path="TestFiles/f7">
+        <cTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <output>${TESTDIR}/TestFiles/f7</output>
+        </linkerTool>
+      </folder>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tests/RoundUtill_simpleTest.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tests/SimpleCash1Test.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tests/SimpleCash2Test.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tests/SimpleCash3Test.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tests/SimpleCash4Test.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tests/SimpleCash_Test.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tests/Vect3Dtest.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
